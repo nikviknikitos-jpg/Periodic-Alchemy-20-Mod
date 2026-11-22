@@ -2,7 +2,7 @@ package com.example.chemtable.entity;
 
 import com.example.chemtable.reaction.ReactionEffects;
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.projectile.ThrownItemEntity;
+import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
