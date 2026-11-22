@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "chemtable",
+  "version": "${version}",
+  "name": "Periodic Alchemy",
+  "description": "20 Chemical Reactions & Periodic Table!",
+  "authors": ["Alchemist"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.chemtable.ChemTableMod"
+    ],
+    "client": [
+      "com.example.chemtable.client.ChemTableClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
