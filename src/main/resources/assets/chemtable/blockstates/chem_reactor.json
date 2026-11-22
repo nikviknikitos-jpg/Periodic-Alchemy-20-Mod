@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chemtable:block/chem_reactor"
+    }
+  }
+}
