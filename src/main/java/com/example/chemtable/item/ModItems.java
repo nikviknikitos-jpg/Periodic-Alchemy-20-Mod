@@ -1,4 +1,5 @@
 package com.example.chemtable.item;
+import com.example.chemtable.block.ModBlocks;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.Item;
