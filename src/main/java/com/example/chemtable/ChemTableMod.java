@@ -20,7 +20,6 @@ public class ChemTableMod implements ModInitializer {
         ModEntities.register();
         ModItems.register();
         ModBlocks.register();
-        FabricDefaultAttributeRegistry.register(ModEntities.REACTION_GRENADE, net.minecraft.entity.EntityType.createLivingAttributes().build());
         CommandRegistrationCallback.EVENT.register((d, ra, e) -> GiveChemCommand.register(d));
         ServerTickEvents.END_WORLD_TICK.register(ReactionTickHandler::tick);
         LOGGER.info("ChemTableMod initialized");
